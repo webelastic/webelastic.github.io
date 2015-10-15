@@ -1,0 +1,11 @@
+body {
+	background-color: gray;
+	color: 0/74/128;
+	background-image: "SALT_Pg1_BG.jpg";
+	font-family: "Century Schoolbook";
+}
+h1 {font-weight: bold;
+	font-style: italic;
+}
+h3 {text-align: center;
+}
