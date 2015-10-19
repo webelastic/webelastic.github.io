@@ -1,5 +1,5 @@
 .navlinks {
-	color: 0/74/128
+	color: 0/74/128;
 	font-family: "helvetica";
 	background-color: 255/255/255;
 	text-align: justify;
@@ -16,6 +16,12 @@ h1 {
 	font-weight: bold;
 	font-style: italic;
 	text-align: center;
+}
+
+h3 {
+	font-family: "century schoolbook";
+	text-align: center;
+	color: 0/74/128;
 }
 
 h4 {
