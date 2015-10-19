@@ -1,9 +1,15 @@
-body {
-	background-image: "SALT_Pg1_BG.jpg";
+nav {
+	color: 0/74/128
+	font-family: "Century Schoolbook";
+	background-color: white;
+}
+
+p {	background-image: "SALT_Pg1_BG.jpg";
 	background-color: white;
 	color: 0/74/128;
 	font-family: "Century Schoolbook";
 }
+
 h1 {font-weight: bold;
 	font-style: italic;
 	text-align: center;
