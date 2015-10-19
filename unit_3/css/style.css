@@ -1,14 +1,22 @@
 .navlinks {
 	color: 0/74/128
 	font-family: "helvetica";
-	background-color: white;
+	background-color: 255/255/255;
 	text-align: justify;
 }
 
-h1 {font-weight: bold;
+h1 {
+	font-weight: bold;
 	font-style: italic;
 	text-align: center;
 }
 
-h3 {text-align: center;
+h5 {text-align: center;
+}
+
+p {
+	font-family: "helvetica";
+	text-align: left;
+	color: 0/74/128
+	background-color: 255/255/255;
 }
