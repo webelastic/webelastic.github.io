@@ -6,6 +6,11 @@
 	text-decoration: none;
 }
 
+background-image: url(assets/SALT_Pg1_BG.jpg) {
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 #homebg {
 	background-image: url(assets/SALT_Pg1_BG.jpg);
 	background-color: 255/255/255;
