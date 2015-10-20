@@ -26,16 +26,17 @@ h3 {
 }
 
 h4 {
-	font-family: "Century Schoolbook"
-	font-weight: lighter;
 	text-align: center;
+	font-family: "Century Schoolbook"
 }
 
-h5 {text-align: center;
+h5 {
+	text-align: center;
+	font-family: "Century Schoolbook"
 }
 
 h6 {
-	font-family: "century schoolbook";
+	font-family: helvetica;
 	text-align: left;
 	color: rgb(0,74,128);
 	background-color: rgb(255,255,255);
