@@ -1,5 +1,5 @@
 .navlinks {
-	color: rgb(0,57,89);
+	color: rgb(0,74,128);
 	font-family: helvetica ;
 	background-color: rgb(255,255,255);
 	text-align: center;
@@ -13,6 +13,7 @@ body {
 }
 
 h1 {
+	color: rgb(0,74,128);
 	font-weight: bold;
 	font-style: italic;
 	text-align: center;
@@ -22,20 +23,23 @@ h3 {
 	font-family: "century schoolbook";
 	font-weight: lighter;
 	text-align: center;
-	color: 0/74/128;
+	color: rgb(0,74,128);
 }
 
 h4 {
+	color: rgb(0,74,128);
+	font-weight: lighter;
 	text-align: center;
 	font-family: "Century Schoolbook"
 }
 
 h5 {
+	color: rgb(0,74,128);
 	text-align: center;
 	font-family: "Century Schoolbook"
 }
 
-h6 {
+p {
 	font-family: helvetica;
 	text-align: left;
 	color: rgb(0,74,128);
