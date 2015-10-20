@@ -1,12 +1,12 @@
 .navlinks {
-	color: 0,57,89;
+	color: teal;
 	font-family: helvetica ;
-	background-color: 255,255,255;
+	background-color: white;
 	text-align: center;
 	text-decoration: none;
 }
 
-.homebg {
+#homebg {
 	background-image: url(assets/SALT_Pg1_BG.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
