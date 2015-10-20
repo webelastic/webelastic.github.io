@@ -28,7 +28,7 @@ h3 {
 h4 {
 	font-family: "Century Schoolbook"
 	font-weight: lighter;
-	font-style: center
+	text-align: center;
 }
 
 h5 {text-align: center;
@@ -37,6 +37,6 @@ h5 {text-align: center;
 h6 {
 	font-family: "century schoolbook";
 	text-align: left;
-	color: 0/74/128
-	background-color: 255/255/255;
+	color: rgb(0,74,128);
+	background-color: rgb(255,255,255);
 }
