@@ -1,4 +1,4 @@
-.navlinks {
+.nav {
 	color: rgb(0,74,128);
 	font-family: helvetica ;
 	background-color: rgb(255,255,255);
@@ -6,7 +6,7 @@
 	text-decoration: none;
 }
 
-body {
+.home {
 	background-image: url(assets/SALT_Pg1_BG.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
