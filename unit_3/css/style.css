@@ -6,9 +6,9 @@
 	text-decoration: none;
 }
 
-
 #home {
 	background-image: url(images/SALT_Pg1_BG.jpg);
+	background-color: rgb(255,255,255)
 	background-repeat: no-repeat;
 	background-size: cover;
 }
