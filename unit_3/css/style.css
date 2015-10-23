@@ -1,24 +1,26 @@
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,700italic,700);
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600);
+
 .navlinks {
 	color: rgb(0,74,128);
-	font-family: helvetica ;
+	font-family: 'Poppins', sans-serif;
 	background-color: rgb(255,255,255);
 	text-align: center;
 	text-decoration: none;
 }
 
-/*#home {
+#home {
 	background-image: url(../images/SALT_Pg1_BG.jpg);
 	background-repeat: no-repeat;
+	background-position: center;
+	background-size: fixed;
 	background-size: cover;
 	background-color: rgb(255,255,255);
-}*/
-
-#home {
-	background-image: url(../images/SALT_Pg1_BG.jpg) no-repeat center center fixed;
-	background-size: cover;
 }
 
 h1 {
+	font-family: 'Crimson Text', serif;
 	color: rgb(0,74,128);
 	font-weight: bold;
 	font-style: italic;
@@ -26,27 +28,27 @@ h1 {
 }
 
 h3 {
-	font-family: "century schoolbook";
+	font-family: 'Crimson Text', serif;
 	font-weight: lighter;
 	text-align: center;
 	color: rgb(0,74,128);
 }
 
 h4 {
+	font-family: 'Crimson Text', serif;
 	color: rgb(0,74,128);
-	font-weight: lighter;
 	text-align: center;
 	font-family: "Century Schoolbook"
 }
 
 h5 {
+	font-family: 'Crimson Text', serif;
 	color: rgb(0,74,128);
 	text-align: center;
-	font-family: "Century Schoolbook"
 }
 
 p {
-	font-family: helvetica;
+	font-family: 'Crimson Text', serif;
 	text-align: left;
 	color: rgb(0,74,128);
 	background-color: rgb(255,255,255);
