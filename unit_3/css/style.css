@@ -36,11 +36,23 @@
 	height: 100%;
 }
 
-.leftcopy {
+#praise{
+	height: 100%;
+	text-decoration: none;
+}
+
+.lefthome {
 	width: 70%;
 	padding-left: 20%;
 	padding-right: 20%;
 }
+
+.righthome {
+	width: 70%;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+
 
 h1 {
 	font-family: 'Crimson Text', serif;
@@ -61,13 +73,12 @@ h4 {
 	font-family: 'Crimson Text', serif;
 	color: rgb(0,74,128);
 	text-align: center;
-	font-family: "Century Schoolbook";
 }
 
 h5 {
-	font-family: 'Crimson Text', serif;
+	font-family: Helvetica, sans-serif;
 	color: rgb(0,74,128);
-	text-align: center;
+	text-align: left;
 }
 
 p {
