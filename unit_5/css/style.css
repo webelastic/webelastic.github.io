@@ -42,6 +42,19 @@
 	height: 100%;
 }
 
+.booklinks {
+	font-family: 'Poppins', sans-serif;
+	color: rgb(0,74,128);
+	text-decoration: none;
+}
+
+.footlinks {
+	font-family: helvetica, sans-serif;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	font-size: 50%;
+}
+
 #excerpt {
 	height: 100%;
 }
@@ -55,15 +68,16 @@
 	text-decoration: none;
 }
 
-.lefthome {
+#lefthome {
 	width: 70%;
-	padding-left: 20%;
-	padding-right: 20%;
+	padding-left: 5%;
+	padding-right: 80%;
 }
 
-.righthome {
+#righthome {
 	width: 70%;
-	padding-left: 20%;
+	padding-top: 5%;
+	padding-left: 50%;
 	padding-right: 20%;
 }
 
