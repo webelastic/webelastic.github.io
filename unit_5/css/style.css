@@ -70,15 +70,15 @@
 
 #lefthome {
 	width: 70%;
+	padding-top: 5%;
 	padding-left: 5%;
 	padding-right: 80%;
 }
 
 #righthome {
 	width: 70%;
-	padding-top: 5%;
 	padding-left: 50%;
-	padding-right: 20%;
+	padding-right: 5%;
 }
 
 
