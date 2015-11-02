@@ -51,6 +51,10 @@ section {
 	background-color: rgb(255,255,255);
 }
 
+#home img: {
+	width: 100%;
+}
+
 #home_left {
 	float: left;
 	width: 40%;
@@ -63,8 +67,6 @@ section {
 	padding-right: 8%;
 	width: 40%;
 	float: right;
-	max-width: 100%;
-	height: auto;
 }
 
 #book {
