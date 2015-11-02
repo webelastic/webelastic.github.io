@@ -58,23 +58,13 @@ section {
 	display: table-row;
 }
 
-#home_left_title {
-	padding-top: 8%;
-}
-
-#home_left_introcopy {
-	padding-top: 5%;
-}
-
-#home_left_authorname {
-	padding-top: 5%;
-}
-
 #home_right {
 	padding-top: 8%;
 	padding-right: 8%;
 	width: 40%;
 	float: right;
+	max-width: 100%;
+	height: auto;
 }
 
 #book {
