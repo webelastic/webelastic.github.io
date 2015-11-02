@@ -1,33 +1,46 @@
-@import url(https://fonts.googleapis.com/css?family=Crimson+Text:400,700italic,700);
-
+@import url(https://fonts.googleapis.com/css?family=Gentium+Basic:400,700italic);
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600);
 
-/*.body {
+body {
 	height: 100%;
-}*/
+	background-color: rgb(255,255,255);
+	padding: 0px;
+	margin: 0px;
+}
 
-.navlinks {
-/*	list-style: none;*/
+section {
+	display: block;
 	text-align: center;
-	margin: 0;
-	padding: 20px;
+}
+
+.fixed-nav-bar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+	width: 100%;
+	height: 60px;
+	background-color: rgb(255,255,255);
+	background-position: center;
+}
+
+.mainnavlinks {
+	text-align: center;
+	margin: 5;
+	padding: 15px;
 	display: flex;
 	justify-content: space-between;
-	/*background-color: rgb(255,255,255);*/
 }
 
-.navlinks li{
-	display: inline;
-}
-
-.navlinks a{
-	font-family: 'Poppins', sans-serif;
+.mainnavlinks a{
+	font-family: 'Poppins500', sans-serif;
+	font-size: 1em;
+	letter-spacing: 2px;
 	display: inline-block;
-	/*padding: 10px;*/
 	text-decoration: none;
+	text-transform: uppercase;
 	color: rgb(0,74,128);
 }
-
 #home {
 	height: 100%;
 	background-image: url(../images/SALT_Pg1_BG.jpg);
@@ -38,14 +51,93 @@
 	background-color: rgb(255,255,255);
 }
 
+#home_left {
+	float: left;
+	width: 40%;
+	padding: 10% 5%;
+	display: table-row;
+}
+
+#home_left_title {
+	padding-top: 8%;
+}
+
+#home_left_introcopy {
+	padding-top: 5%;
+}
+
+#home_left_authorname {
+	padding-top: 5%;
+}
+
+#home_right {
+	padding-top: 8%;
+	padding-right: 8%;
+	width: 40%;
+	float: right;
+}
+
 #book {
 	height: 100%;
+	background-color: rgb(255,255,255);
+}
+
+#book_left {
+	float: left;
+	width: 50%;
+	display: table-row;
+	padding-left: 5%;
+	padding-top: 13%;
+}
+
+#book_right {
+	padding-top: 8%;
+	padding-right: 5%;
+	width: 40%;
+	float: right;
+	display: table-row;
+}
+
+#booklinksgroup {
+	padding-left: 5%;
 }
 
 .booklinks {
-	font-family: 'Poppins', sans-serif;
+	font-family: 'Poppins500', sans-serif;
+	font-size: 1em;
+	letter-spacing: 2px;
 	color: rgb(0,74,128);
 	text-decoration: none;
+	padding-left: 8%;
+	padding-right: 8%;
+	float: right;
+}
+
+#author {
+	height: 100%;
+}
+
+.quote1 {
+	padding: 3%;
+}
+
+.quote2 {
+	padding: 3%;
+}
+
+#author{
+	height: 100%;
+}
+
+#videos {
+	height: 100%;
+}
+
+#reviews {
+	height: 100%;
+}
+
+#footer {
 }
 
 .footlinks {
@@ -55,51 +147,28 @@
 	font-size: 50%;
 }
 
-#excerpt {
-	height: 100%;
-}
-
-#author{
-	height: 100%;
-}
-
-#praise{
-	height: 100%;
-	text-decoration: none;
-}
-
-#lefthome {
-	width: 70%;
-	padding-top: 5%;
-	padding-left: 5%;
-	padding-right: 80%;
-}
-
-#righthome {
-	width: 70%;
-	padding-left: 50%;
-	padding-right: 5%;
-}
-
-
 h1 {
-	font-family: 'Crimson Text', serif;
+	font-family: 'Gentium Basic 700italic', serif;
+	font-size: 1.75em;
+	line-height: 1.2em;
 	color: rgb(0,74,128);
-	font-weight: bold;
 	font-style: italic;
 	text-align: center;
 }
 
 h3 {
-	font-family: 'Crimson Text', serif;
-	font-weight: lighter;
+	font-family: 'Gentium Basic', serif;
+	font-size: 1.2em;
+	line-height: 1.5em;
 	text-align: center;
 	color: rgb(0,74,128);
 }
-
 h4 {
-	font-family: 'Crimson Text', serif;
+	font-family: 'Poppins400', sans-serif;
+	font-weight: normal;
+	font-size: 1em;
 	color: rgb(0,74,128);
+	line-height: 1.3em;
 	text-align: center;
 }
 
@@ -110,7 +179,7 @@ h5 {
 }
 
 p {
-	font-family: 'Crimson Text', serif;
+	font-family: 'Gentium Basic', serif;
 	text-align: left;
 	color: rgb(0,74,128);
 	background-color: rgb(255,255,255);
