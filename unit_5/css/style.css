@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Gentium+Basic:400,700italic);
+@import url(https://fonts.googleapis.com/css?family=Gentium+Basic:700,400,700italic,400italic);
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600);
 
 body {
@@ -51,20 +51,23 @@ section {
 	background-color: rgb(255,255,255);
 }
 
-#home img: {
-	width: 100%;
+#home img {
+	max-width: 100%;
 }
 
 #home_left {
 	float: left;
 	width: 40%;
-	padding: 10% 5%;
-	display: table-row;
+	padding: 12% 0% 0% 10%;
+	/*display: table-row;*/
+}
+
+#home h3 {
+	padding: 5% 0% 6% 0%;
 }
 
 #home_right {
-	padding-top: 8%;
-	padding-right: 8%;
+	padding: 10% 4% 0% 2%;
 	width: 40%;
 	float: right;
 }
@@ -74,12 +77,20 @@ section {
 	background-color: rgb(255,255,255);
 }
 
+#book img {
+	max-width: 105%;
+}
+
 #book_left {
 	float: left;
-	width: 50%;
-	display: table-row;
-	padding-left: 5%;
-	padding-top: 13%;
+	width: 40%;
+/*	display: table-row;
+*/	padding-left: 10%;
+	padding-top: 10%;
+}
+
+#book_left h3 {
+	margin-top: -3%;
 }
 
 #book_right {
@@ -91,7 +102,7 @@ section {
 }
 
 #booklinksgroup {
-	padding-left: 5%;
+	padding-left: 0%;
 }
 
 .booklinks {
@@ -102,11 +113,47 @@ section {
 	text-decoration: none;
 	padding-left: 8%;
 	padding-right: 8%;
-	float: right;
+	text-align: center;
+/*	float: right;
+*/}
+
+#author{
+	height: 100%;
+	background-image: url(../images/SALT_author_bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: fixed;
+	background-size: cover;
+	background-color: rgb(255,255,255);
 }
 
-#author {
-	height: 100%;
+#author h3 {
+	color: rgb(255,255,255);
+	padding-top: 50%;
+}
+
+#author_col1n {
+	max-width: 100%;
+	float: left;
+	width: 20%;
+}
+
+#author img {
+/*	max-width: 100%;
+*/	float: left;
+	padding-top: 10%;
+	padding-left: 3%
+}
+
+#author_col2 {
+	padding-right: 40%;
+	padding-left: 35%;
+	padding-top: 10%;
+	width: 40%;
+}
+
+#author_col3 {
+	width: 20%;
 }
 
 .quote1 {
@@ -115,10 +162,6 @@ section {
 
 .quote2 {
 	padding: 3%;
-}
-
-#author{
-	height: 100%;
 }
 
 #videos {
@@ -140,20 +183,21 @@ section {
 }
 
 h1 {
-	font-family: 'Gentium Basic 700italic', serif;
+	font-family: 'Gentium Basic', serif;
 	font-size: 1.75em;
-	line-height: 1.2em;
+	line-height: 1.1em;
 	color: rgb(0,74,128);
 	font-style: italic;
 	text-align: center;
 }
 
 h3 {
-	font-family: 'Gentium Basic', serif;
+	font-family: 'Gentium Basic 400', serif;
 	font-size: 1.2em;
-	line-height: 1.5em;
+	line-height: 1.3em;
 	text-align: center;
 	color: rgb(0,74,128);
+	font-weight: normal;
 }
 h4 {
 	font-family: 'Poppins400', sans-serif;
