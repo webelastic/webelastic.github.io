@@ -8,11 +8,6 @@ body {
 	margin: 0px;
 }
 
-section {
-	display: block;
-	text-align: center;
-}
-
 .fixed-nav-bar {
 	position: fixed;
 	top: 0;
@@ -33,22 +28,36 @@ section {
 }
 
 .mainnavlinks a{
-	font-family: 'Poppins500', sans-serif;
-	font-size: 1em;
+	font-family: 'Poppins', sans-serif;
+	font-size: 1.2em;
 	letter-spacing: 2px;
 	display: inline-block;
 	text-decoration: none;
 	text-transform: uppercase;
 	color: rgb(0,74,128);
 }
+
+a:hover {
+	font-weight: bold;
+}
+
+.clearfix:after {
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: "hello";
+  clear: both;
+  height: 0;
+}
+
 #home {
 	height: 100%;
+	background-color: rgb(255,255,255);
 	background-image: url(../images/SALT_Pg1_BG.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: fixed;
 	background-size: cover;
-	background-color: rgb(255,255,255);
 }
 
 #home img {
@@ -59,7 +68,6 @@ section {
 	float: left;
 	width: 40%;
 	padding: 12% 0% 0% 10%;
-	/*display: table-row;*/
 }
 
 #home h3 {
@@ -67,9 +75,9 @@ section {
 }
 
 #home_right {
-	padding: 10% 4% 0% 2%;
-	width: 40%;
-	float: right;
+	padding: 12% 0% 0% 5%;
+	width: 45%;
+	float: left;
 }
 
 #book {
@@ -77,15 +85,18 @@ section {
 	background-color: rgb(255,255,255);
 }
 
-#book img {
-	max-width: 105%;
+#book_left img {
+	width: 100%;
+}
+
+#book_right img {
+	max-width: 100%;
 }
 
 #book_left {
 	float: left;
-	width: 40%;
-/*	display: table-row;
-*/	padding-left: 10%;
+	width: 45%;
+	padding-left: 10%;
 	padding-top: 10%;
 }
 
@@ -94,11 +105,10 @@ section {
 }
 
 #book_right {
-	padding-top: 8%;
-	padding-right: 5%;
+	padding-top: 10%;
+	padding-right: 0%;
 	width: 40%;
-	float: right;
-	display: table-row;
+	float: left;
 }
 
 #booklinksgroup {
@@ -106,7 +116,8 @@ section {
 }
 
 .booklinks {
-	font-family: 'Poppins500', sans-serif;
+	font-family: 'Poppins', sans-serif;
+	font-weight: bold;
 	font-size: 1em;
 	letter-spacing: 2px;
 	color: rgb(0,74,128);
@@ -114,46 +125,64 @@ section {
 	padding-left: 8%;
 	padding-right: 8%;
 	text-align: center;
-/*	float: right;
-*/}
+}
 
-#author{
+#author {
 	height: 100%;
+	background-color: rgb(255,255,255);
 	background-image: url(../images/SALT_author_bg.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: fixed;
 	background-size: cover;
-	background-color: rgb(255,255,255);
-}
-
-#author h3 {
-	color: rgb(255,255,255);
-	padding-top: 50%;
-}
-
-#author_col1n {
-	max-width: 100%;
-	float: left;
-	width: 20%;
 }
 
 #author img {
-/*	max-width: 100%;
-*/	float: left;
-	padding-top: 10%;
-	padding-left: 3%
+	width: 100%;
+}
+
+#author_col1 {
+	float: left;
+	width: 35%;
+	padding-top: 6%;	
+}
+
+#author_col1 h3 {
+	color: rgb(255,255,255);
+	font-size: 1.2em;
+	line-height: .6em;
+	text-align: center;
+	color: rgb(255,255,255);
+	font-weight: normal;
 }
 
 #author_col2 {
-	padding-right: 40%;
-	padding-left: 35%;
-	padding-top: 10%;
-	width: 40%;
+	margin-left: 35%;
+	padding-top: 18%;
+	width: 35%;
+	float-left;
+}
+
+#author_col2 img {
+	/*vertical-align: top;*/
+/*	width: 100%;*/
+}
+
+#author_col2 h3 {
+	color: rgb(255,255,255);
+	margin-top: 10%;
+	font-style: normal;
+}
+
+#author_col2 a {
+	color: rgb(255,255,255);
+	font-style: normal;
+	text-decoration: none;
 }
 
 #author_col3 {
 	width: 20%;
+	float: left;
 }
 
 .quote1 {
@@ -191,16 +220,25 @@ h1 {
 	text-align: center;
 }
 
+h2 {
+	font-family: 'Poppins', sans-serif;
+	color: rgb(255,255,255);
+	font-weight: normal;
+	font-size: 1.5em;
+	line-height: 1em;
+	text-align: center;
+}
+
 h3 {
 	font-family: 'Gentium Basic 400', serif;
 	font-size: 1.2em;
-	line-height: 1.3em;
+	line-height: 1.4em;
 	text-align: center;
 	color: rgb(0,74,128);
 	font-weight: normal;
 }
 h4 {
-	font-family: 'Poppins400', sans-serif;
+	font-family: 'Poppins', sans-serif;
 	font-weight: normal;
 	font-size: 1em;
 	color: rgb(0,74,128);
