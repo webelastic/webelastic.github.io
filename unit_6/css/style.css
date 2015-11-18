@@ -93,8 +93,9 @@ h4 {
 
 h5 {
 	font-family: Helvetica, sans-serif;
-	color: rgb(0,74,128);
+	color: rgb(0,0,0);
 	text-align: left;
+	font-size: .7em;
 }
 
 h6 {
@@ -337,11 +338,26 @@ a:hover {
 }
 
 #footer {
+	padding: 5%;
 }
 
-.footlinks {
+#footer img {
+	max-width: 100%;
+}
+
+#footer a {
 	font-family: helvetica, sans-serif;
 	color: rgb(0, 0, 0);
 	text-decoration: none;
-	font-size: 50%;
+}
+
+#footer-column {
+	float: left;
+	width: 30%;
+}
+
+#footer_column_logo {
+	width: 40%;
+	float: right;
+	display: inline;
 }
