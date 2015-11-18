@@ -165,8 +165,8 @@ a:hover {
 	padding-right: 0%;
 	width: 40%;
 	float: left;
-	background-color: red;
-}
+/*	background-color: red;
+*/}
 
 #book_right img {
 	max-width: 100%;
