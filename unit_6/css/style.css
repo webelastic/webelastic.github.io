@@ -1,74 +1,36 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
-}
-body {
-	line-height: 1;
-}
-ol, ul {
-	list-style: none;
-}
-blockquote, q {
-	quotes: none;
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-	content: '';
-	content: none;
-}
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
-}
-
 @import url(https://fonts.googleapis.com/css?family=Gentium+Basic:700,400,700italic,400italic);
 @import url(https://fonts.googleapis.com/css?family=Poppins:400,500,600);
 
 body {
-	height: 100%;
 	background-color: rgb(255,255,255);
-	padding: 0px;
-	margin: 0px;
+	font-family: 'Gentium Basic', serif;
+	text-align: justify;
+	font-weight: normal;
+}
+
+p {
+	font-family: 'Gentium Basic', serif;
+	color: rgb(0,74,128);
+	text-align: justify;
+	font-weight: normal;
+	font-size: 1.2em;
+	line-height: 1.5em;
 }
 
 h1 {
 	font-family: 'Gentium Basic', serif;
-	font-size: 1.75em;
-	line-height: 1.1em;
+	font-size: 1.9em;
+	line-height: 1em;
 	color: rgb(0,74,128);
 	font-style: italic;
+	font-weight: bold;
 	text-align: center;
 }
 
 h2 {
 	font-family: 'Poppins', sans-serif;
 	font-size: 1.5em;
+	line-height: 1em;
 	text-align: center;
 	color: rgb(0,74,128);
 	font-weight: normal;
@@ -76,10 +38,8 @@ h2 {
 
 h3 {
 	font-family: 'Gentium Basic', serif;
-	font-size: 1.2em;
+	font-size: 1.5em;
 	line-height: 1.4em;
-	text-align: justify;
-	font-weight: normal;
 }
 
 h4 {
@@ -96,14 +56,6 @@ h5 {
 	color: rgb(0,0,0);
 	text-align: left;
 	font-size: .7em;
-}
-
-h6 {
-	font-family: 'Gentium Basic', serif;
-	font-size: 1.2em;
-	text-align: center;
-	font-weight: bold;
-	font-style: italic;
 }
 
 a:hover {
@@ -145,6 +97,8 @@ a:hover {
 }
 
 #home {
+	padding-top: 10%;
+	padding-bottom: 2%;
 	background-color: rgb(255,255,255);
 	background-image: url(../images/SALT_Pg1_BG.jpg);
 	background-repeat: no-repeat;
@@ -153,13 +107,9 @@ a:hover {
 	background-size: cover;
 }
 
-#home img {
-/*	width: 100%;
-*/	}
-
 #home h3 {
 	color: rgb(0,74,128);
-	padding: 10% 0% 12% 0%;
+	padding: 8% 0% 8% 0%;
 	text-align: center;
 }
 
@@ -169,13 +119,13 @@ a:hover {
 
 #home_left {
 	float: left;
-	width: 38%;
-	padding: 10% 0% 0% 8%;
+	width: 36%;
+	padding: 1% 5% 0% 10%;
 }
 
 #home_right {
-	padding: 8% 0% 0% 5%;
-	width: 45%;
+/*	padding: 2% 5% 2% 5%;
+*/	width: 42%;
 	float: left;
 }
 
@@ -186,38 +136,32 @@ a:hover {
 
 #book {
 	background-color: rgb(255,255,255);
-	padding-bottom: 5%;
+	padding-bottom: 6%;
 }
 
-#book h3 {
-	color: rgb(0,74,128);
-
+#book h1 {
+	padding-bottom: 1%;
 }
 
 #book_left {
 	float: left;
 	width: 50%;
-	padding: 11% 0% 0% 5%;
+	padding: 10% 0% 0% 5%;
 }
 
 #book_left img {
 	width: 100%;
-	padding-bottom: 5%;
-}
-
-#book_left h3 {
-	margin-top: 1%;
+	padding-bottom: 6%;
 }
 
 #book_left a {
 	text-decoration: none;
 	color: rgb(0,74,128);
-	font-family: 'Gentium Basic', serif;
-	font-weight: bold;
+	font-style: italic;
 }
 
 #book_right {
-	padding: 8% 0% 0% 1%;
+	padding: 6% 0% 0% 1%;
 	width: 40%;
 	float: left;
 }
@@ -248,10 +192,18 @@ a:hover {
 	background-position: center;
 	background-size: fixed;
 	background-size: cover;
-	padding-bottom: 10%;
+	padding-bottom: 5%;
 	padding-top: 5%;
 }
 
+#author p {
+	color: rgb(255,255,255);
+	padding-top: 5%;
+}
+
+.italic {
+	font-style: italic;
+}
 
 .author_col {
 	float: left;
@@ -269,20 +221,7 @@ a:hover {
 .author_col h2 {
 	margin-top: 10%;
 	color: rgb(255,255,255);
-	font-size: 1.2em;
 	line-height: .2em;
-}
-
-.author_col h3 {
-	color: rgb(255,255,255);
-	margin-top: 10%;
-}
-
-.author_col h4 {
-}
-
-.author_col h6 {
-	margin-top: 5%;
 }
 
 .author_col a {
@@ -308,7 +247,6 @@ a:hover {
 #reviews h2 {
 	line-height: .1em;
 	padding-top: 1.5%;
-	font-size: 1.3em;
 	color: rgb(255,255,255)
 }
 
