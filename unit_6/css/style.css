@@ -78,7 +78,7 @@ h3 {
 	font-family: 'Gentium Basic', serif;
 	font-size: 1.2em;
 	line-height: 1.4em;
-	text-align: center;
+	text-align: justify;
 	font-weight: normal;
 }
 
@@ -87,7 +87,7 @@ h4 {
 	font-weight: normal;
 	font-size: 1em;
 	color: rgb(0,74,128);
-	line-height: 1.3em;
+	line-height: 1em;
 	text-align: center;
 }
 
@@ -102,7 +102,7 @@ h6 {
 	font-family: 'Gentium Basic', serif;
 	font-size: 1.2em;
 	text-align: center;
-	font-weight: normal;
+	font-weight: bold;
 	font-style: italic;
 }
 
@@ -121,10 +121,7 @@ a:hover {
 
 .fixed-nav-bar {
 	position: fixed;
-	top: 0;
-	left: 0;
 	width: 100%;
-	height: 55px;
 	background-color: rgb(255,255,255);
 	background-position: center;
 }
@@ -139,7 +136,7 @@ a:hover {
 
 .mainnavlinks a{
 	font-family: 'Poppins', sans-serif;
-	font-size: 1.1em;
+	font-size: 1em;
 	letter-spacing: 2px;
 	display: inline-block;
 	text-decoration: none;
@@ -148,7 +145,6 @@ a:hover {
 }
 
 #home {
-	height: 100%;
 	background-color: rgb(255,255,255);
 	background-image: url(../images/SALT_Pg1_BG.jpg);
 	background-repeat: no-repeat;
@@ -157,9 +153,14 @@ a:hover {
 	background-size: cover;
 }
 
+#home img {
+/*	width: 100%;
+*/	}
+
 #home h3 {
 	color: rgb(0,74,128);
-	font-size: 1.3em;
+	padding: 10% 0% 12% 0%;
+	text-align: center;
 }
 
 #home_left img {
@@ -168,16 +169,12 @@ a:hover {
 
 #home_left {
 	float: left;
-	width: 40%;
-	padding: 13% 0% 0% 8%;
-}
-
-#home h3 {
-	padding: 5% 0% 6% 0%;
+	width: 38%;
+	padding: 10% 0% 0% 8%;
 }
 
 #home_right {
-	padding: 9% 0% 0% 5%;
+	padding: 8% 0% 0% 5%;
 	width: 45%;
 	float: left;
 }
@@ -188,8 +185,8 @@ a:hover {
 }
 
 #book {
-	height: 100%;
 	background-color: rgb(255,255,255);
+	padding-bottom: 5%;
 }
 
 #book h3 {
@@ -200,7 +197,7 @@ a:hover {
 #book_left {
 	float: left;
 	width: 50%;
-	padding: 12% 0% 0% 7%;
+	padding: 11% 0% 0% 5%;
 }
 
 #book_left img {
@@ -220,25 +217,18 @@ a:hover {
 }
 
 #book_right {
-	padding: 10% 0% 0% 1%;
+	padding: 8% 0% 0% 1%;
 	width: 40%;
 	float: left;
-/*	background-color: red;
-*/}
+}
 
 #book_right img {
 	max-width: 100%;
-	padding-bottom: 3%;
-}
-
-#booklinksgroup {
-	padding-left: 15%;
-	padding-right: 3%;
-	background-color: red;
 }
 
 #booklinks {
 	text-align: center;
+	padding-left: 8%;
 }
 
 #booklinks a {
@@ -246,27 +236,28 @@ a:hover {
 	font-weight: bold;
 	font-size: 1em;
 	letter-spacing: 2px;
+	line-height: 1.7em;
 	color: rgb(0,74,128);
 	text-decoration: none;
-	padding: 3%;
 }
 
 #author {
-	height: 100%;
 	background-color: rgb(255,255,255);
 	background-image: url(../images/SALT_author_bg.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: fixed;
 	background-size: cover;
+	padding-bottom: 10%;
+	padding-top: 5%;
 }
+
 
 .author_col {
 	float: left;
 	width: 35%;
 	margin: 0;
-/*	background-color: gray;
-*/	padding-top: 8%;
+	padding-top: 5%;
 }
 
 .author_col img {
@@ -287,6 +278,9 @@ a:hover {
 	margin-top: 10%;
 }
 
+.author_col h4 {
+}
+
 .author_col h6 {
 	margin-top: 5%;
 }
@@ -294,38 +288,42 @@ a:hover {
 .author_col a {
 	color: rgb(255,255,255);
 	text-decoration: none;
-
+	line-height: 1.5em;
 }
 
 #author_col3 {
 	width: 20%;
 	float: left;
 	background-color: green;
-	margin: 5%;
-	margin-top: 10%;
-	padding-top: 22%;
-	padding-bottom: 22%;
+	margin: 10% 5% 5% 5%;
+	padding-top: 15%;
+	padding-bottom: 15%;
 }
 
 #reviews {
-	padding: 10% 5% 0% 5%;
-/*	background-color: red;
-*/	height: 100%;
-
+	padding: 8%;
+	background-color: rgb(0,74,128)
 }
 
 #reviews h2 {
-	line-height: .8em;
-	padding-top: 1%;
+	line-height: .1em;
+	padding-top: 1.5%;
 	font-size: 1.3em;
+	color: rgb(255,255,255)
+}
+
+#reviews h3 {	
+	color: rgb(0,74,128);
+	text-align: center;
+	color: rgb(255,255,255)
 }
 
 #reviews h4 {
-	line-height: 0em;
+	color: rgb(255,255,255)
 }
 
 .quote {
-	padding-top: 3%;
+	padding-top: 5%;
 	padding-bottom: 5%;
 }
 
@@ -333,31 +331,30 @@ a:hover {
 	height: 100%;
 }
 
-#reviews h3 {	
-	color: rgb(0,74,128);
-}
-
 #footer {
-	padding: 5%;
+	background-color: rgb(0,0,0);
+	height: 60px;
 }
 
-#footer img {
-	max-width: 100%;
-}
-
-#footer a {
-	font-family: helvetica, sans-serif;
-	color: rgb(0, 0, 0);
-	text-decoration: none;
-}
-
-#footer-column {
+#footer_left {
 	float: left;
-	width: 30%;
+	width: 80%;
+}
+
+#footer_left h5 {
+	padding-top: 3%;
+	color: rgb(255,255,255);
+	padding-left: 3%;
+}
+
+#footer_left a {
+	text-decoration: none;
+	font-family: helvetica, sans-serif;
+	color: rgb(255,255,255);
 }
 
 #footer_column_logo {
-	width: 40%;
+	width: 5%;
+	padding-top: .5%;
 	float: right;
-	display: inline;
 }
