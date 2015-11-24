@@ -160,7 +160,11 @@ a:hover {
 
 #home h3 {
 	color: rgb(0,74,128);
+<<<<<<< HEAD
 	padding: 8% 0% 10% 0%;
+=======
+	padding: 10% 0% 12% 0%;
+>>>>>>> origin/master
 	text-align: center;
 }
 
@@ -171,11 +175,19 @@ a:hover {
 #home_left {
 	float: left;
 	width: 38%;
+<<<<<<< HEAD
 	padding: 10% 0% 0% 8%;
 }
 
 #home_right {
 	padding: 8% 0% 0% 5%;
+=======
+	padding: 12% 0% 0% 8%;
+}
+
+#home_right {
+	padding: 10% 0% 0% 5%;
+>>>>>>> origin/master
 	width: 45%;
 	float: left;
 }
@@ -305,7 +317,10 @@ a:hover {
 
 #reviews {
 	padding: 8%;
+<<<<<<< HEAD
 	background-color: rgb(0,74,128);
+=======
+>>>>>>> origin/master
 }
 
 #reviews h2 {
@@ -321,8 +336,14 @@ a:hover {
 	color: rgb(255,255,255);
 }
 
+<<<<<<< HEAD
 #reviews h4 {
 	color: rgb(255,255,255);
+=======
+#reviews h3 {	
+	color: rgb(0,74,128);
+	text-align: center;
+>>>>>>> origin/master
 }
 
 .quote {
@@ -335,7 +356,11 @@ a:hover {
 }
 
 #footer {
+<<<<<<< HEAD
 	background-color: rgb(255,255,255);
+=======
+	background-color: rgb(0,74,128);
+>>>>>>> origin/master
 	height: 60px;
 }
 
@@ -346,13 +371,21 @@ a:hover {
 
 #footer_left h5 {
 	padding-top: 3%;
+<<<<<<< HEAD
 	color: rgb(0,74,128);
+=======
+	color: rgb(255,255,255);
+>>>>>>> origin/master
 	padding-left: 3%;
 }
 
 #footer_left a {
 	text-decoration: none;
+<<<<<<< HEAD
 	color: rgb(0,74,128);
+=======
+	color: rgb(255,255,255);
+>>>>>>> origin/master
 	font-family: helvetica, sans-serif;
 }
 
