@@ -14,7 +14,7 @@ p {
 	text-align: center;
 	font-weight: normal;
 	font-size: 1.2em;
-	line-height: 1.5em;
+	line-height: 1.4em;
 }
 
 h1 {
@@ -32,22 +32,21 @@ h2 {
 	font-size: 1.5em;
 	line-height: 1em;
 	text-align: center;
-	color: rgb(0,74,128);
+	color: rgb(125,189,206);
 	font-weight: normal;
 }
 
 h3 {
 	font-family: 'Gentium Basic', serif;
-	font-size: 1.5em;
-	line-height: 1.4em;
+	font-size: 1.4em;
+	line-height: 1.5em;
 }
 
 h4 {
 	font-family: 'Poppins', sans-serif;
 	font-weight: normal;
 	font-size: 1em;
-	color: rgb(0,74,128);
-	line-height: 1em;
+	line-height: 1.2em;
 	text-align: center;
 }
 
@@ -56,6 +55,7 @@ h5 {
 	color: rgb(0,0,0);
 	text-align: left;
 	font-size: .7em;
+	line-height: .8em;
 }
 
 a:hover {
@@ -71,22 +71,25 @@ a:hover {
   height: 0;
 }
 
-.fixed-nav-bar {
+#mobilenav {
+	display: none;
+	}
+
+#fixed-nav-bar {
 	position: fixed;
 	width: 100%;
 	background-color: rgb(255,255,255);
-	background-position: center;
 }
 
-.mainnavlinks {
+nav {
 	text-align: center;
 	margin: 5;
-	padding: 18px;
+	padding: 14px;
 	display: flex;
 	justify-content: space-between;
 }
 
-.mainnavlinks a{
+nav a{
 	font-family: 'Poppins', sans-serif;
 	font-size: 1em;
 	letter-spacing: 2px;
@@ -119,11 +122,11 @@ a:hover {
 #home_left {
 	float: left;
 	width: 36%;
-	padding: 1% 5% 0% 10%;
+	padding: 2% 5% 0% 10%;
 }
 
 #home_right {
-	padding-bottom: 5%;
+	padding-bottom: 3%;
 	width: 42%;
 	float: left;
 }
@@ -139,7 +142,7 @@ a:hover {
 }
 
 #book h1 {
-	padding-bottom: 1%;
+	padding-bottom: .5%;
 }
 
 #book_left {
@@ -150,13 +153,15 @@ a:hover {
 
 #book_left img {
 	width: 100%;
-	padding-bottom: 6%;
+	padding-bottom: 5%;
 }
 
 #book_left a {
 	text-decoration: none;
 	color: rgb(0,74,128);
 	font-style: italic;
+	font-weight: bold;
+	line-height: 3em;
 }
 
 #book_right {
@@ -191,6 +196,7 @@ a:hover {
 	background-position: center;
 	background-size: fixed;
 	background-size: cover;
+	padding-bottom: 4%;
 }
 
 #author p {
@@ -203,10 +209,10 @@ a:hover {
 
 #author_col1 {
 	float: left;
-	width: 30%;
+	width: 29%;
 	margin: 0;
-	padding-top: 8%;
-	padding-left: 3%;
+	padding-top: 12%;
+	padding-left: 2%;
 	margin: auto;
 }
 
@@ -218,7 +224,7 @@ a:hover {
 #author_col2 {
 	float: left;
 	width: 35%;
-	padding-top: 8%;
+	padding-top: 12%;
 	padding-left: 3%;
 	margin: auto;
 }
@@ -239,10 +245,8 @@ a:hover {
 
 #tourdates {
 	padding-top: 8%;
-	}
-#tourdates h4 {
-	color: rgb(255,255,255);
 }
+
 #tourdates a {
 	margin: 0% 2% 0% 2%;
 	line-height: .3em;
@@ -256,9 +260,9 @@ a:hover {
 	width: 18%;
 	float: left;
 	background-color: green;
-	margin: 8% 2% 5% 6%;
-	padding-top: 12%;
-	padding-bottom: 28%;
+	margin: 8% 2% 2% 6%;
+	padding-top: 16%;
+	padding-bottom: 26%;
 }
 
 #author_col3 h4 {
@@ -267,7 +271,7 @@ a:hover {
 
 #videos {
 	background-color: rgb(255,255,255);
-	padding: 100%;
+	padding: 33%;
 }
 
 #reviews {
@@ -278,14 +282,12 @@ a:hover {
 #reviews h2 {
 	line-height: .1em;
 	padding-top: 1.5%;
-	color: rgb(255,255,255)
 }
 
 #reviews h3 {	
 	color: rgb(0,74,128);
 	text-align: center;
 	color: rgb(255,255,255);
-	font-size: 1.2em;
 }
 
 #reviews h4 {
@@ -297,18 +299,19 @@ a:hover {
 	padding-bottom: 5%;
 }
 
-#footer {
+footer {
 	background-color: rgb(0,0,0);
-	height: 60px;
+	padding-top: .5%;
 }
 
 #footer_left {
 	float: left;
-	width: 80%;
+	width: 95%;
+	padding-top: 1.75%;
+
 }
 
 #footer_left h5 {
-	padding-top: 3%;
 	color: rgb(255,255,255);
 	padding-left: 3%;
 }
@@ -319,91 +322,215 @@ a:hover {
 	color: rgb(255,255,255);
 }
 
-#footer_column_logo {
-	width: 5%;
-	padding-top: .5%;
+#footer_right_logo {
 	float: right;
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1000px) {
+	h2 {
+		font-size: 1.4em;
+		line-height: 1.4em;
+	}
+	h3 {
+		font-size: 1.3em;
+		line-height: 1.3em;
+	}
+	p {
+	font-size: 1.1em;
+	line-height: 1.3em;
+}
+	#home_left {
+		padding-top: 3%;
+		padding-bottom: 5%;
+	}
+	#book h1 {
+	padding-bottom: 1%;
+	}
+	#book {
+		padding-bottom: 3%;
+	}
+	#book_left {
+		padding-top: 10%;
+		padding-bottom: 1%;
+	}
+	#book_right {
+		padding-top: 8%;
+	}
+	#author_col1 {
+		padding-top: 15%;
+		width: 32%;
+	}
+	#author_col2 {
+		padding-top: 12%;
+	}
+	#reviews {
+	padding: 8% 12% 0% 12%;
+	}
+}
+@media only screen and (max-width: 800px) {
+	h2 {
+		font-size: 1.4em;
+		line-height: 1.4em;
+	}
+	h3 {
+		font-size: 1.2em;
+		line-height: 1.3em;
+	}
+	p {
+		font-size: 1em;
+		line-height: 1.3em;
+	}
+	#home {
+		padding-top: 10%;
+		padding-bottom: 5%;
+	}
+	#home_left {
+		padding-bottom: 2%;
+		width: 50%;
+		padding: 5% 0% 0% 5%;
+	}
+	#home_left img {
+		width: 95%;
+	}
+	#home_right {
+		padding: 8% 0% 0% 2%;
+	}
+	#book {
+		padding-bottom: 1%;
+	}
+	#book h1 {
+		padding-bottom: 1%;
+		font-size: 1.6em;
+		line-height: 1.1em;
+	}
+	#book_left {
+		padding-top: 13%;
+		padding-left: 7%;
+	}
+	#book_right {
+		padding: 12% 4% 5% 1%;
+		width: 38%;
+	}
+	#author_col1 {
+		padding-top: 17 %;
+		width: 32%;
+		padding-left: 0%;
+	}
+	#author_col2 {
+		padding-top: 16%;
+		padding-left: 0%;
+		padding-bottom: 6%;
+		width: 38%;
+	}
+	#author_col3 {
+		margin: 10% 2% 2% 4%;
+		padding: 10% 0% 22% 0%;
+		width: 15%;
+	}
+	#tourdates a {
+		font-size: 1em;
+	}
+	#tourdates h2 {
+		font-size: 1.2em;
+	}	
+	#reviews {
+	padding: 8% 12% 0% 12%;
+	}
+	#reviews h4 {
+		font-size: .9em;
+	}
+}
+@media only screen and (max-width: 600px) {
+	h2 {
+		font-size: 1.4em;
+		line-height: 1.4em;
+	}
+	h3 {
+		font-size: 1.1em;
+		line-height: 1.2em;
+	}
+	#home {
+		padding-top: 11%;
+		padding-bottom: 10%;
+	}
+
+	#book h1 {
+		font-size: 1.4em;
+		line-height: 1.1em;
+	}
+	#book_left {
+		padding: 15% 1% 2% 6%;
+		width: 50%;
+	}
+	#book_right {
+		padding: 20% 1% 5% .5%;
+		width: 39%;
+	}
+	#author_col1 {
+		padding-top: 22%;
+		width: 31%;
+		padding-left: 0%;
+	}
+	#author_col2 {
+		padding-top: 14%;
+		padding-left: 0%;
+		padding-bottom: 4%;
+		width: 42%;
+	}
+	#author_col3 {
+		margin: 15% 2% 0% 4%;
+		padding: 10% 0% 22% 0%;
+		width: 14%;
+	}
+	#tourdates h2 {
+		font-size: 1.1em;
+	}
+	#tourdates a {
+		margin: 0% 1% 0% 1%;
+		line-height: .3em;
+		font-size: .9em;
+	}
+	#reviews h2 {
+		font-size: 1.2em;
+		}
+	#reviews h4 {
+		font-size: .8em;
+	}
+}
+@media only screen and (max-width: 480px) {
+	h2 {
+		font-size: 1.4em;
+		line-height: 1.4em;
+	}
 	h3 {
 		font-size: 1.2em;
 		line-height: 1.3em;
 	}
 	p {
 		font-size: 1.1em;
-		line-height: 1.4em;
-	}
-	#home_left {
-		padding: 2% 5% 2% 7%;
-		width: 40%;
-	}
-	#book h1 {
-		padding-bottom: 3%;
-	}
-	#book_right {
-		padding-top: 10%;
-	}
-}
-
-@media only screen and (max-width: 750px) {
-	h3 {
-		font-size: 1.15em;
 		line-height: 1.3em;
 	}
-	#home_left {
-		padding: 5% 3% 3% 8%;
-		width: 40%;
+	#mobilenav {
+		display: block;
 	}
-	#home_left img {
-		width: 90%;
+	nav {
+		display: block;
 	}
-	#home_right {
-		padding-top: 5%;
+	nav a{
+		display: none;
+		padding: 2%;
+		font-size: 1.3em;
 	}
-	#book h1 {
-		padding-bottom: 3%;
-		font-size: 1.7em;
+	nav:hover a {
+		display: block;
 	}
-	#book_right {
-		padding-top: 12%;
+	#fixed-nav-bar:hover {
+		opacity: .8;
 	}
-
-@media only screen and (max-width: 600px) {
-	h2 {
-		font-size: 1em;
-	}
-	h3 {
-		font-size: 1em;
-		line-height: 1.2em;
-	}
-	#home_left {
-		padding: 5% 5% 3% 7%;
-		width: 40%;
-	}
-	#home_left img {
-		width: 90%;
-	}
-	#book h1 {
-		padding-bottom: 2%;
-		font-size: 1.4em;
-	}
-	p {
-		font-size: .9em;
-		line-height: 1.2em;
-	}
-	#book_left {
-		padding-top: 12%;
-	}
-		#book_right {
-		padding-top: 15%;
-	}
-
-@media only screen and (max-width: 480px) {
 	#home_left {
 		float: none;
 		margin: auto;
-		padding-top: 10%;
+		padding-top: 15%;
 		width: 85%;
 	}
 	#home_right {
@@ -415,20 +542,24 @@ a:hover {
 	#book_left {
 		float: none;
 		margin: auto;
-		padding-top: 17%;
+		padding-top: 24%;
 		width: 80%;
+	}
+	#book h1 {
+		font-size: 1.5em;
+		line-height: 1.2em;
 	}
 	#book_right {
 		float: none;
 		margin: auto;
 		width: 60%;
-		padding-top: 5%;
+		padding-top: 2%;
 	}
 	#author_col1 {
 		float: none;
 		margin: auto;
-		width: 80%;
-		padding-top: 12%;
+		width: 85%;
+		padding-top: 24%;
 		padding-bottom: 0%;
 	}
 	#author_col1 img {
@@ -437,7 +568,7 @@ a:hover {
 	#author_col2 {
 		float: none;
 		margin: auto;
-		width: 70%;
+		width: 85%;
 		padding-top: 0%;
 	}
 	#author_col3 {
@@ -448,9 +579,16 @@ a:hover {
 		padding-top: 20%;
 		padding-bottom: 20%;
 	}
+	#tourdates h2 {
+		font-size: 1.3em;
+	}
+	#tourdates a {
+		margin: 0% 1% 0% 1%;
+		line-height: .3em;
+		font-size: 1em;
+	}
 	#reviews {
-		padding-top: 18%;
-		width: 90%;
+		padding-top: 13%;
 	}
 	#reviews h3 {
 		font-size: 1.1em;
@@ -462,8 +600,5 @@ a:hover {
 	#reviews h4 {
 		font-size: .8em;
 		line-height: 1.2em;
-	}
-	.quote {
-		padding: 10% 3% 10% 3%;
 	}
 }
