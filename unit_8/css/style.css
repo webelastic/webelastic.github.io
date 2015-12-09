@@ -85,7 +85,7 @@ a:hover {
 nav {
 	text-align: center;
 	margin: 5;
-	padding: 14px;
+	padding: 18px;
 	display: flex;
 	justify-content: space-between;
 }
@@ -655,6 +655,13 @@ footer {
 	#book_intro img {
 		width: 80%;
 	}
+	label {
+		line-height: 1.3em;
+		font-size: 1.2em;
+	}
+	li a {
+		font-size: 1.2em;
+	}
 	#author_col1 {
 		float: none;
 		margin: auto;
@@ -729,5 +736,8 @@ footer {
 	}
 	#footer_left {
 		padding-top: 3%;
+	}
+	#footer_left h5 {
+		line-height: 1.6em;
 	}
 }
