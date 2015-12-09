@@ -79,6 +79,7 @@ a:hover {
 	position: fixed;
 	width: 100%;
 	background-color: rgb(255,255,255);
+	z-index: 1;
 }
 
 nav {
@@ -149,19 +150,19 @@ nav a{
 	float: left;
 	width: 40%;
 	padding-top: 8%;
-	padding-left: 1%;
 }
 
 .book_buy {
 	padding-bottom: 5%;
-	padding-left: 16%;
+	text-align: center;
 }
 
 label { 
 	cursor: pointer;
 	font-family: 'Poppins', sans-serif;
 	color: rgb(0,74,128);
-	line-height: 1.5em;
+	line-height: 1.2em;
+	font-size: 1.1em;
 }
 
 li a {
@@ -171,7 +172,6 @@ li a {
 	font-family: 'Gentium Basic', serif;
 	font-style: italic;
 	color: rgb(0,74,128);
-	padding-left: 5%;
 }
 
 #book_menu-toggle1 {
@@ -200,9 +200,9 @@ li a {
 
 #book_intro {
 	float: left;
-	width: 50%;
-	padding-top: 8%;
-	padding-left: 2%;
+	width: 55%;
+	padding-top: 12%;
+	padding-left: 5%;
 }
 
 #book_intro h1 {
@@ -212,6 +212,7 @@ li a {
 #book_intro img {
 	width: 70%;
 	padding-bottom: 5%;
+	padding-left: 12%;
 }
 
 #book_intro a {
@@ -304,14 +305,13 @@ li a {
 	background-color: rgb(255,255,255);
 	width: 75%;
 	margin:0 auto;
-	margin-top: 10%;
 	padding: 60px;
 }
 
 .video-container {
 	position: relative;
 	padding-bottom: 56.25%;
-	padding-top: 30px; height: 0;
+	padding-top: 50px; height: 0;
 }
 
 .video-container iframe,
@@ -407,7 +407,7 @@ footer {
 		padding-bottom: 5%;
 	}
 	#book h1 {
-	padding-bottom: 1%;
+		padding-bottom: 1%;
 	}
 	#book {
 		padding-bottom: 3%;
@@ -471,12 +471,16 @@ footer {
 		font-size: 1.6em;
 		line-height: 1.1em;
 	}
+	label {
+		line-height: 1.1em;
+		font-size: 1em;
+	}
 	#book_intro {
 		padding-top: 13%;
-		padding-left: 2%;
+		padding-left: 5%;
 	}
 	#book_left {
-		padding: 12% 0% 5% 3%;
+		padding: 14% 0% 5% 0%;
 		width: 36%;
 	}
 	#author_col1 {
@@ -526,20 +530,20 @@ footer {
 		padding-bottom: 10%;
 	}
 
+	.book_buy {
+		width: 100%;
+		text-align: center;
+	}
+
 	#book h1 {
 		font-size: 1.4em;
 		line-height: 1.1em;
 	}
 	#book_intro {
-		padding: 15% 8% 2% 2%;
-		width: 46%;
-	}
-	#book_intro img {
-		width: 100%;
-		margin: auto;
+		width: 45%;
 	}
 	#book_left {
-		padding: 15% 1% 5% 0%;
+		padding: 25% 1% 5% 0%;
 		width: 42%;
 	}
 	#book_left img {
@@ -631,9 +635,6 @@ footer {
 		padding-top: 5%;
 		width: 80%;
 	}
-	#book p {
-		text-align: justify;
-	}
 	#book h1 {
 		font-size: 1.5em;
 		line-height: 1.2em;
@@ -641,21 +642,18 @@ footer {
 	}
 	#book_left {
 		float: none;
-		width: 80%;
+		width: 90%;
+		padding-top: 3%;
+		padding-left: 2%;
 	}
-	#book_left img {
-		padding-left: 12%;
-		padding-right: 0%;
-	}
-
 	#book_intro {
 		float: none;
 		margin: auto;
-		padding: 0% 2% 0% 0%;
+		padding: 22% 2% 0% 0%;
 		width: 85%;
 	}
 	#book_intro img {
-		width: 100%;
+		width: 80%;
 	}
 	#author_col1 {
 		float: none;
@@ -695,7 +693,23 @@ footer {
 		margin: auto;
 		width: 60%;
 	}
-
+	#videos {
+		padding-top: 30%;
+	}
+	.video_descriptor {
+		padding-top: 4%;
+		padding-bottom: 8%;
+	}
+	.video_descriptor h2 {
+		font-size: 1.2em;
+	}
+	.video_descriptor p {
+		text-align: center;
+		margin: auto;
+		width: 90%;
+		font-size: 1em;
+		line-height: 1.1em;
+	}
 	#reviews {
 		padding-top: 15%;
 	}
