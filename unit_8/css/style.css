@@ -136,10 +136,6 @@ nav a{
 	max-width: 550px;
 }
 
-
-
-
-
 #book {
 	background-color: rgb(255,255,255);
 	padding-bottom: 4%;
@@ -290,7 +286,7 @@ li a {
 
 #tourdates p {
 	line-height: .3em;
-		text-align: center;
+	text-align: center;
 }
 
 #author_col3 {
@@ -306,7 +302,40 @@ li a {
 
 #videos {
 	background-color: rgb(255,255,255);
-	padding: 33%;
+	width: 75%;
+	margin:0 auto;
+	margin-top: 10%;
+	padding: 60px;
+}
+
+.video-container {
+	position: relative;
+	padding-bottom: 56.25%;
+	padding-top: 30px; height: 0;
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+	position: absolute;
+	top: 0%; left: 0;
+	width: 100%;
+	height: 100%;
+}
+
+.video_descriptor {
+	padding-top: 2%;
+	padding-bottom: 4%;
+}
+
+.video_descriptor h2 {
+	padding-bottom: .5%;
+}
+
+.video_descriptor p {
+	text-align: center;
+	margin: auto;
+	width: 45%;
 }
 
 #reviews {
@@ -397,6 +426,11 @@ footer {
 	#author_col2 {
 		padding-top: 15%;
 	}
+	.video_descriptor p {
+	text-align: center;
+	margin: auto;
+	width: 55%;
+	}
 	#reviews {
 	padding: 8% 12% 0% 12%;
 	}
@@ -465,6 +499,11 @@ footer {
 	}
 	#tourdates h2 {
 		font-size: 1.2em;
+	}
+	.video_descriptor p {
+	text-align: center;
+	margin: auto;
+	width: 70%;
 	}	
 	#reviews {
 	padding: 8% 12% 0% 12%;
@@ -529,6 +568,11 @@ footer {
 		margin: 0% 1% 0% 1%;
 		line-height: .3em;
 		font-size: .9em;
+	}
+	.video_descriptor p {
+	text-align: center;
+	margin: auto;
+	width: 82%;
 	}
 	#reviews h2 {
 		font-size: 1.2em;
@@ -630,7 +674,7 @@ footer {
 		padding-top: 0%;
 	}
 	#author_col2 img {
-		width: 75%;
+		width: 80%;
 		margin: auto;
 		padding-left: 12%;
 	}
@@ -642,8 +686,7 @@ footer {
 		font-size: 1.4em;
 	}
 	#tourdates a {
-		padding-left: 5%;
-		margin: 2%;
+		padding-left: 2%;
 		line-height: .2em;
 		font-size: 1em;
 	}
@@ -652,6 +695,7 @@ footer {
 		margin: auto;
 		width: 60%;
 	}
+
 	#reviews {
 		padding-top: 15%;
 	}
